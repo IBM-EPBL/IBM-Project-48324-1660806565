@@ -2,7 +2,11 @@
 Predicting the energy output of wind turbine based on weather condition
 
 Team Members
+
       Derick Prince J
+	
       Balaji K K
-      Bysone Prince
-      Dialing Dijoe z
+	
+      Bysone Prince S
+	
+      Dialing Dijoe X
