@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<title>Home page</title>
+	</head>
+	<body>
+		<h1>predict Page!</h1>
+		<p>hello!</p>
+		<p>{{speed}}</p>
+		<form action ="{{url_for('y_predict')}}">
+			<p>{{temp}}</p>
+			<p>{{humid}}</p>
+			<p>{{pressure}}</p>
+			<p>{{speed}}</p>
+			<input type ="text" name ="temp" ><br>
+			<input type ="text" name ="humid"><br>
+			<input type ="text" name ="pressure"><br>
+			<input type ="button" name ="result" value="press to predict"><br>
+		</form>
+		<p>{{prediction_text}}</p>
+	</body>
+</html>
